@@ -3,9 +3,7 @@
 <head>
   <title>Bootstrap Example</title>
    <title>Youmax 8.0 - Complete Youtube Channel on your Website - Jquery plugin</title>
-	
-	<!--jquery-->
-	<script src="./jquery/jquery-1.9.1.min.js"></script>
+
 	
 	<!--youmax-->
 	<script src="./js/jquery.youmax.min.js"></script>
@@ -31,18 +29,7 @@
     }
   </style>
   
-	<style>
 
-      body {
-        font-family: Calibri;
-        font-size: 14px;
-		text-align:center;
-      }
-	  
-
-	  
-		
-	</style>
 </head>
 <body>
 
@@ -117,29 +104,38 @@
   </div>
 </nav>
 
+
+
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="footer-social-icons">
+    <h4 class="_14">Follow us on</h4>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/upscpoint/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/upscpoint" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+   
+        <li><a href="https://www.youtube.com/upscpoint" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+   
+        <li><a href="https://plus.google.com/115233087358525547513" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+</footer>
  <div id="youmax" class="youmax"></div> 
 		
-<br/><br/><br/>
-<br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/>
-
-
-<div id="youmax" class="youmax"></div> 
 		
-        <div class="footer">Made with <i class="fa fa-heart"></i> in Delhi</div>
-
 <script type="text/javascript">
 $("#youmax").youmax({ 
 
 apiKey:"AIzaSyDShnZ5ZbK4fpIfMZsIZzsLxFdGeS9xx7Y", 
-vimeoAccessToken:"0", 
+vimeoAccessToken:"", 
 clientId:"110150105240-dmp9v4uk6pmkdttq3vgbbk6vkt28ddmk.apps.googleusercontent.com", 
 channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
   youtube_channel_uploads:[ 
     { 
       name:"Uploads", 
-      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg/videos?sort=dd&shelf_id=1&view=0", 
-      selected:true
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg/videos?shelf_id=1&view=0&sort=dd", 
+      selected:false
     }, 
   ], 
 
@@ -164,34 +160,19 @@ channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg",
   ], 
 
   alwaysUseDropdown:false, 
-  displayFirstVideoOnLoad:false, 
-  skin:"trend1", 
+  autoPlayVideo:true, 
+  playIconType:"white_grey_combo", 
   autoLoadComments:true, 
-  userWebsite:"", 
+  userWebsite:"https://upscpoint.github.io/", 
   widgetMode:true, 
-  loadMode:"paginate-bottom", 
   loadButtonSize:"small", 
-  videoPlayerTheme:"dark", 
-  hideHeader:false, 
-  maxResults:12, 
-  maxComments:4, 
+  videoPlayerTheme:"light", 
+  maxResults:10, 
 
 });
 </script>
-
-<!-- Footer -->
-<footer class="text-center">
-  <div class="footer-social-icons">
-    <h4 class="_14">Follow us on</h4>
-    <ul class="social-icons">
-        <li><a href="https://www.facebook.com/upscpoint/" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-        <li><a href="https://twitter.com/upscpoint" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-   
-        <li><a href="https://www.youtube.com/upscpoint" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-   
-        <li><a href="https://plus.google.com/115233087358525547513" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-    </ul>
-</div>
-</footer>
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
 </body>
 </html>
