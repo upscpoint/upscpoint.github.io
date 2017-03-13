@@ -124,17 +124,29 @@
 <br/><br/><br/><br/><br/>
 
 
-	<script type="text/javascript">
+<div id="youmax" class="youmax"></div> 
+		
+        <div class="footer">Made with <i class="fa fa-heart"></i> in Delhi</div>
+
+<script type="text/javascript">
 $("#youmax").youmax({ 
 
-apiKey:"AIzaSyCFVxHilyiCiwj0zTRzqXNot5pCfcoSkFA", 
-vimeoAccessToken:"", 
-clientId:"84241236570-unf0p51oepjj2oi0sogbjuou977picbe.apps.googleusercontent.com", 
-channel:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A", 
+apiKey:"AIzaSyDShnZ5ZbK4fpIfMZsIZzsLxFdGeS9xx7Y", 
+vimeoAccessToken:"0", 
+clientId:"110150105240-dmp9v4uk6pmkdttq3vgbbk6vkt28ddmk.apps.googleusercontent.com", 
+channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
   youtube_channel_uploads:[ 
     { 
       name:"Uploads", 
-      url:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg/videos?sort=dd&shelf_id=1&view=0", 
+      selected:true
+    }, 
+  ], 
+
+  youtube_channel_playlists:[ 
+    { 
+      name:"Playlists", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg/playlists", 
       selected:false
     }, 
   ], 
@@ -142,7 +154,7 @@ channel:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A",
   youtube_channel_search:[ 
     { 
       name:"Search", 
-      restrictToChannels:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A", 
+      restrictToChannels:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
       relatedTo:"", 
       searchQuery:"inside out", 
       searchOrder:"date", 
@@ -151,18 +163,18 @@ channel:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A",
     }, 
   ], 
 
-  youtube_playlist_videos:[ 
-    { 
-      name:"Videos", 
-      url:"https://www.youtube.com/channel/UCZn8qHU8j8FJsY46PRMMp5A", 
-      selected:false
-    }, 
-  ], 
-
+  alwaysUseDropdown:false, 
+  displayFirstVideoOnLoad:false, 
+  skin:"trend1", 
   autoLoadComments:true, 
-  userWebsite:"https://upscpoint.github.io/index.html", 
-  videoPlayerTheme:"light", 
-  maxResults:8, 
+  userWebsite:"", 
+  widgetMode:true, 
+  loadMode:"paginate-bottom", 
+  loadButtonSize:"small", 
+  videoPlayerTheme:"dark", 
+  hideHeader:false, 
+  maxResults:12, 
+  maxComments:4, 
 
 });
 </script>
