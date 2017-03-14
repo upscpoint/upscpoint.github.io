@@ -45,6 +45,7 @@
 
 
 	
+
 <script type="text/javascript">
 $("#youmax").youmax({ 
 
@@ -54,9 +55,9 @@ clientId:"110150105240-dasceg6263sq81trkf9aa5ebn26gg45o.apps.googleusercontent.c
 channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
   youtube_channel_uploads:[ 
     { 
-      name:"Uploads", 
+      name:"Latest Uploads", 
       url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
-      selected:true
+      selected:false
     }, 
   ], 
 
@@ -64,26 +65,18 @@ channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg",
     { 
       name:"Playlists", 
       url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
-      selected:true
+      selected:false
     }, 
   ], 
 
-  youtube_channel_search:[ 
-    { 
-      name:"Search", 
-      restrictToChannels:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
-      relatedTo:"", 
-      searchQuery:"inside out", 
-      searchOrder:"date", 
-      eventType:"", 
-      selected:true
-    }, 
-  ], 
-
-  autoPlayVideo:true, 
-  displayFirstVideoOnLoad:true, 
+  alwaysUseDropdown:false, 
+  autoPlayVideo:false, 
+  displayFirstVideoOnLoad:false, 
   autoLoadComments:true, 
   widgetMode:false, 
+  loadMode:"paginate-sides", 
+  playlistAction:"playall", 
+  maxResults:10, 
 
 });
 </script>
