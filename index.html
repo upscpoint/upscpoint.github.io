@@ -44,97 +44,49 @@
 <br/><br/><br/><br/><br/>
 
 
-	<script>
-		
-
 	
-	$("#youmax").youmax({
-		apiKey:"AIzaSyAUmcK1pvnmfh2W5lXrO2fxCWdocvR3ays",
-		clientId:"110150105240-dasceg6263sq81trkf9aa5ebn26gg45o.apps.googleusercontent.com",
-		
-		
-		youtube_channel_uploads:[
-			{
-				url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg",
-				name:" Uploads",
-				selected:true
-			},
-					
-		],
-		
-		youtube_channel_playlists:[
-			{
-				url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg/playlists",
-				name:" Playlists",
-				
-				
-			}			
-		],
-		
-		
-		
-				
-		],
-		
-		
-		
-		
-		
-		channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg",
-		vimeoAccessToken:"",
-		
-		selectedTab:"u",
-		displayVideo:"popup",
-		alwaysUseDropdown:true,
-		skin:"clean",
-		maxResults:10,
-		innerOffset:25,
-		outerOffset:35,
-		minItemWidth:250,
-		maxItemWidth:400,
-		maxContainerWidth:1080,
-		autoPlayVideo:false,
-		displayFirstVideoOnLoad:false,
-		linkNewPages:true,
-		searchBoxScope:"channel",
-		videoProtocol:"https:",
-		autoLoadComments: true,
-		alignPopupToTop: true,
-		commentOrder:"relevance", //time|relevance
-		featuredVideo:'',
-		playlistSearchFile:'./json/searchlist.json',
-		userWebsite:"",
-		videoMode:"wide",
-		shareLink:"youtube",
-		facebookAppId:"",
-		widgetMode:false,
-		
-		showTitleInVideoPlayer:true,
-		playlistAction:"showvideos",
-		
-		viewCountType:"abbr",
-		likeCommentCountType:"abbr",
-		showEvents:true,
-		loadMode:"loadmore", //paginate-sides
-		hideHeader:false,
-		hideNavigation:false,
-		loadButtonSize:"large",
-		videoPlayerTheme:"light",
-		//minVideoContainerHeight:300,
-		
-		translatorFile:"./json/translation.json",
-		showVimeoLikesInsteadOfViews:false,
-		
+<script type="text/javascript">
+$("#youmax").youmax({ 
 
-	});
+apiKey:"AIzaSyAUmcK1pvnmfh2W5lXrO2fxCWdocvR3ays", 
+vimeoAccessToken:"", 
+clientId:"110150105240-dasceg6263sq81trkf9aa5ebn26gg45o.apps.googleusercontent.com", 
+channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+  youtube_channel_uploads:[ 
+    { 
+      name:"Uploads", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+      selected:true
+    }, 
+  ], 
 
-	
-	
+  youtube_channel_playlists:[ 
+    { 
+      name:"Playlists", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+      selected:true
+    }, 
+  ], 
 
-		
+  youtube_channel_search:[ 
+    { 
+      name:"Search", 
+      restrictToChannels:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+      relatedTo:"", 
+      searchQuery:"inside out", 
+      searchOrder:"date", 
+      eventType:"", 
+      selected:true
+    }, 
+  ], 
 
+  autoPlayVideo:true, 
+  displayFirstVideoOnLoad:true, 
+  autoLoadComments:true, 
+  widgetMode:true, 
 
-	</script>
+});
+</script>
 
   </body>
 </html>
