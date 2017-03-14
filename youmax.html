@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width">
+    <title>Youmax 8.0 - Complete Youtube Channel on your Website - Jquery plugin</title>
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+	
+	<!--youmax-->
+	<script src="./js/jquery.youmax.min.js"></script>
+	
+	<link rel="stylesheet" href="./css/youmax_trend.min.css"/>
+
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+
+	  
+		
+	</style>
+
+	</head>
+  <body>
+		<a href="http://demos.codehandling.com/youmax_js_8_gen/generator.html">
+		<h1>Youmax</h1>
+		</a>
+<br><br>		
+<div id="youmax" class="youmax"></div>
+
+<br/><br/>
+
+<a href="http://demos.codehandling.com/youmax_js_doc/youmax-javascript-documentation.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	
+
+<script type="text/javascript">
+$("#youmax").youmax({ 
+
+apiKey:"AIzaSyAUmcK1pvnmfh2W5lXrO2fxCWdocvR3ays", 
+vimeoAccessToken:"", 
+clientId:"110150105240-dasceg6263sq81trkf9aa5ebn26gg45o.apps.googleusercontent.com", 
+channel:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+  youtube_channel_uploads:[ 
+    { 
+      name:"Latest Uploads", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+      selected:true
+    }, 
+  ], 
+
+  youtube_channel_playlists:[ 
+    { 
+      name:"Playlists", 
+      url:"https://www.youtube.com/channel/UChtLEeUf9YwyHBVUu61O5Vg", 
+      selected:false
+    }, 
+  ], 
+
+  alwaysUseDropdown:false, 
+  autoPlayVideo:true, 
+  displayFirstVideoOnLoad:true, 
+  autoLoadComments:true, 
+   featuredVideo:"https://www.youtube.com/watch?v=LLxf8IFGSOI", 
+  videoProtocol:"https:", 
+  widgetMode:false, 
+  loadMode:"paginate-sides", 
+  playlistAction:"playall", 
+  maxResults:8, 
+
+});
+</script>
+  </body>
+</html>
+
+
+
